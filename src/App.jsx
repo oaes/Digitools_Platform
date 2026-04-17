@@ -1,33 +1,19 @@
 import "./App.css";
-import Mango from "./assets/Todo";
+import Banner from "./components/Banner";
+import { ToastContainer } from "react-toastify";
+import { useState } from "react";
+import NavBar from "./components/NavBar";
 
 function App() {
+  const [cartItems] = useState([]);
+
   return (
     <>
-      <h2>Exploring React Core Concepts</h2>
-      <Mango task="working on project" isDone={true}></Mango>
-      {/* <Mango task="working project" isDone="false"></Mango> */}
-      {/* <Mango task="working project" isDone="false"></Mango> */}
-      {/* <Mango task="learning react"></Mango> */}
-      {/* <Name name="john" dev="javaScript"></Name>
-      <Name name="milton" dev="Python"></Name>
-      <Name name="hitler" dev="Ruby on Rails"></Name> */}
-    </>
-  );
-}
+      <ToastContainer />
 
-function Name(props) {
-  return (
-    <div
-      style={{
-        border: "2px solid green",
-        marginBottom: "15px",
-        borderRadius: "5px",
-      }}
-    >
-      <h3>Developer:{props.name}</h3>
-      <p>Technology:{props.dev}</p>
-    </div>
+      <NavBar cartCount={cartItems.length}></NavBar>
+      <Banner />
+    </>
   );
 }
 
