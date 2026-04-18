@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="py-2 px-4 bg-[#E1E7FF] rounded-full flex items-center gap-2.5 w-fit mx-auto md:mx-0">
           <div>{/* <img src={circleIcon} alt="Circle Icon" /> */}</div>
           <p className="text-base font-medium bg-linear-to-l from-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent">
-            New: AI-Powered Tools Available
+            🧿New: AI-Powered Tools Available
           </p>
         </div>
 

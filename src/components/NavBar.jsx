@@ -15,7 +15,7 @@ const NavBar = ({ cartCount }) => {
           DigiTools
         </a>
 
-        {/* NavLinks  */}
+        {/* Navbar  */}
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
           <li>
             <a href="#products">Products</a>
@@ -48,7 +48,7 @@ const NavBar = ({ cartCount }) => {
             </span>
           </div>
 
-          {/* mobile hamburger menu  */}
+          {/* hamburger menu  */}
           <Menu onClick={() => setMenuOpen(!menuOpen)} className="md:hidden" />
 
           <div className="gap-2 hidden md:flex">
@@ -93,7 +93,7 @@ const NavBar = ({ cartCount }) => {
           </li>
 
           <button
-            className="w-full text-sm font-semibold px-5 py-2 border rounded-full bg-linear-to-l from-[#9514FA] to-[#4F39F6] bg-clip-text hover:text-transparent transition-colors duration-200 cursor-pointer"
+            className="w-full text-sm font-semibold px-5 py-2 border rounded-full bg-linear-to-l from-[#9514FA] to-[#4F39F6] bg-clip-text  cursor-pointer"
             onClick={() => setMenuOpen(false)}
           >
             Login
