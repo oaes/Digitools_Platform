@@ -16,7 +16,7 @@ const NavBar = ({ cartCount }) => {
         </a>
 
         {/* Navbar  */}
-        <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+        <ul className="hidden md:flex items-center ml-5 gap-8 text-sm font-medium text-gray-600">
           <li>
             <a href="#products">Products</a>
           </li>
@@ -52,7 +52,7 @@ const NavBar = ({ cartCount }) => {
           <Menu onClick={() => setMenuOpen(!menuOpen)} className="md:hidden" />
 
           <div className="gap-2 hidden md:flex">
-            <button className="text-sm font-semibold px-5 py-2 rounded-full bg-linear-to-l from-[#9514FA] to-[#4F39F6] bg-clip-text hover:text-transparent transition-colors duration-200 cursor-pointer">
+            <button className="text-sm font-semibold px-5 py-2 rounded-full bg-linear-to-l from-[#9514FA] to-[#4F39F6] cursor-pointer">
               Login
             </button>
 
