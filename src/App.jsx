@@ -8,6 +8,9 @@ import Main from "./components/Main";
 import Cart from "./components/Cart";
 import ProductsCard from "./components/ProductsCard";
 import MainTwo from "./components/MainTwo";
+import Pricing from "./components/Pricing";
+import LastBanner from "./components/LastBanner";
+import Footer from "./components/Footer";
 
 function App() {
   const [cartItems] = useState([]);
@@ -23,6 +26,9 @@ function App() {
       <Cart></Cart>
       <ProductsCard></ProductsCard>
       <MainTwo></MainTwo>
+      <Pricing></Pricing>
+      <LastBanner></LastBanner>
+      <Footer></Footer>
     </>
   );
 }
