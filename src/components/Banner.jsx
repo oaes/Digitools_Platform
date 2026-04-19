@@ -1,6 +1,5 @@
 import React from "react";
 import bannerImg from "../assets/products/banner.png";
-// import circleIcon from "../assets/products/";
 import playBtnImg from "../assets/products/Play.png";
 
 const Banner = () => {

@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "✍️",
+    "iconAlt": "AI Writing Pro icon - pencil writing emoji representing AI content generation"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "🎨",
+    "iconAlt": "Design Templates Pack icon - artist palette emoji representing design and creative templates"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10M+ assets", "Commercial use", "No attribution"],
+    "icon": "🖼️",
+    "iconAlt": "Premium Stock Assets icon - framed picture emoji representing photos and visual media library"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful no-code tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "⚙️",
+    "iconAlt": "Automation Toolkit icon - gear emoji representing automation and workflow tools"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that get you noticed and land interviews.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄",
+    "iconAlt": "Resume Builder Pro icon - document emoji representing professional resume creation"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
+    "icon": "📱",
+    "iconAlt": "Social Media Content Kit icon - mobile phone emoji representing social media platforms and content"
+  },
+  {
+    "id": 7,
+    "name": "SEO Booster Suite",
+    "description": "Dominate search rankings with AI-powered keyword research, audits, and optimization tools.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword research",
+      "Site audit reports",
+      "Competitor analysis"
+    ],
+    "icon": "🔍",
+    "iconAlt": "SEO Booster Suite icon - magnifying glass emoji representing search engine optimization"
+  },
+  {
+    "id": 8,
+    "name": "Video Editing Pro",
+    "description": "Edit stunning videos with professional-grade tools, effects, and AI-powered enhancements.",
+    "price": 69,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "4K export support",
+      "100+ transitions",
+      "AI background remover"
+    ],
+    "icon": "🎬",
+    "iconAlt": "Video Editing Pro icon - clapper board emoji representing video editing and production"
+  },
+  {
+    "id": 9,
+    "name": "Email Marketing Hub",
+    "description": "Build, send, and track email campaigns that convert subscribers into loyal customers.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Unlimited emails", "A/B testing", "Advanced segmentation"],
+    "icon": "📧",
+    "iconAlt": "Email Marketing Hub icon - envelope emoji representing email campaigns and marketing automation"
+  },
+  {
+    "id": 10,
+    "name": "Code Snippet Manager",
+    "description": "Organize, search, and reuse your code snippets across projects with cloud sync support.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Cloud sync", "50+ languages", "Team sharing"],
+    "icon": "💻",
+    "iconAlt": "Code Snippet Manager icon - laptop emoji representing programming and code management"
+  },
+  {
+    "id": 11,
+    "name": "Analytics Dashboard Pro",
+    "description": "Visualize your business data with beautiful real-time dashboards and actionable insights.",
+    "price": 89,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Real-time data",
+      "Custom reports",
+      "Multi-source integration"
+    ],
+    "icon": "📊",
+    "iconAlt": "Analytics Dashboard Pro icon - bar chart emoji representing data visualization and business analytics"
+  }
+]
