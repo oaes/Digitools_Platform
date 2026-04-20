@@ -28,7 +28,6 @@ const ProductsCard = ({ product, onAddToCart, isInCart }) => {
 
   return (
     <div className="bg-white border border-gray-200 rounded-2xl p-6 flex flex-col gap-4 hover:shadow-lg transition-shadow duration-300">
-      
       {/* Header */}
       <div className="flex items-start justify-between">
         <span className="text-3xl">{product.icon}</span>
@@ -72,7 +71,10 @@ const ProductsCard = ({ product, onAddToCart, isInCart }) => {
       {features.length > 0 && (
         <ul className="flex flex-col gap-2 flex-1">
           {features.map((feature, i) => (
-            <li key={i} className="flex items-center gap-2 text-sm text-gray-600">
+            <li
+              key={i}
+              className="flex items-center gap-2 text-sm text-gray-600"
+            >
               <svg
                 className="w-4 h-4 shrink-0"
                 style={{ color: "#7C3AED" }}

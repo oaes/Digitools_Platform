@@ -13,7 +13,21 @@ import LastBanner from "./components/LastBanner";
 import Footer from "./components/Footer";
 
 function App() {
-  const [cartItems] = useState([]);
+  const [cartItems, setCartItems] = useState([]);
+  const handleAddToCart = (product) => {
+    setCartItems((prev) => {
+      if (prev.some((item) => item.id === product.id)) return prev;
+      return [...prev, product];
+    });
+  };
+
+  const handleRemove = (id) => {
+    setCartItems((prev) => prev.filter((item) => item.id !== id));
+  };
+
+  const handleCheckout = () => {
+    setCartItems([]);
+  };
 
   return (
     <>
@@ -22,8 +36,12 @@ function App() {
       <NavBar cartCount={cartItems?.length}></NavBar>
       <Banner />
       <Rating></Rating>
-      <Main></Main>
-      <Cart></Cart>
+      <Main cartItems={cartItems} setCartItems={setCartItems}></Main>
+      <Cart
+        cartItems={cartItems}
+        onRemove={handleRemove}
+        onCheckout={handleCheckout}
+      ></Cart>
       <ProductsCard></ProductsCard>
       <MainTwo></MainTwo>
       <Pricing></Pricing>
